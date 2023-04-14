@@ -359,8 +359,8 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor()  {
-    _name = "KENZO TOKEN";
-    _symbol = "KT";
+    _name = "ESTWO TOKEN";
+    _symbol = "S2";
     _decimals = 18;
     _totalSupply = 1000000000 * 10**18;
     _balances[msg.sender] = _totalSupply;
